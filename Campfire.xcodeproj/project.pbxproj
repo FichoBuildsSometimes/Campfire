@@ -1,0 +1,745 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A10000000000000000000001 /* CampfireApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000001 /* CampfireApp.swift */; };
+		A10000000000000000000002 /* WalkingStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000002 /* WalkingStats.swift */; };
+		A10000000000000000000003 /* CampfireStage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000003 /* CampfireStage.swift */; };
+		A10000000000000000000004 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000004 /* HomeViewModel.swift */; };
+		A10000000000000000000005 /* AppTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000005 /* AppTheme.swift */; };
+		A10000000000000000000006 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000006 /* HomeView.swift */; };
+		A10000000000000000000007 /* GlassCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000007 /* GlassCard.swift */; };
+		A10000000000000000000008 /* StatCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000008 /* StatCard.swift */; };
+		A10000000000000000000009 /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000009 /* ProgressBar.swift */; };
+		A1000000000000000000000A /* BottomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000000A /* BottomTabBar.swift */; };
+		A1000000000000000000000B /* CampfireMascotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000000B /* CampfireMascotView.swift */; };
+		A10000000000000000000012 /* AnimatedCampfireView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000012 /* AnimatedCampfireView.swift */; };
+		A10000000000000000000013 /* EmberParticleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000013 /* EmberParticleView.swift */; };
+		A10000000000000000000014 /* FlyingStickView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000014 /* FlyingStickView.swift */; };
+		A10000000000000000000015 /* OnboardingStateStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000015 /* OnboardingStateStore.swift */; };
+		A10000000000000000000016 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000016 /* OnboardingView.swift */; };
+		A10000000000000000000017 /* OnboardingPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000017 /* OnboardingPageView.swift */; };
+		A10000000000000000000018 /* DailyGoalSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000018 /* DailyGoalSelectionView.swift */; };
+		A10000000000000000000019 /* ReminderNotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000019 /* ReminderNotificationService.swift */; };
+		A1000000000000000000001A /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000001A /* SettingsView.swift */; };
+		A1000000000000000000001B /* HealthKitBackgroundRefreshService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000001B /* HealthKitBackgroundRefreshService.swift */; };
+		A1000000000000000000000C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000000C /* Assets.xcassets */; };
+		A1000000000000000000000D /* HealthKitService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000000E /* HealthKitService.swift */; };
+		A1000000000000000000000E /* SharedWidgetDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000000F /* SharedWidgetDataStore.swift */; };
+		A1000000000000000000000F /* CampfireWidgetData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000011 /* CampfireWidgetData.swift */; };
+		C10000000000000000000001 /* DailyWalkingStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20000000000000000000001 /* DailyWalkingStats.swift */; };
+		C10000000000000000000002 /* ProfileChartRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20000000000000000000002 /* ProfileChartRange.swift */; };
+		C10000000000000000000003 /* ProfileLifetimeStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20000000000000000000003 /* ProfileLifetimeStats.swift */; };
+		C10000000000000000000004 /* StepChartPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20000000000000000000004 /* StepChartPoint.swift */; };
+		C10000000000000000000005 /* DailyStatsHistoryStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20000000000000000000005 /* DailyStatsHistoryStore.swift */; };
+		C10000000000000000000006 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20000000000000000000006 /* ProfileViewModel.swift */; };
+		C10000000000000000000007 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20000000000000000000007 /* ProfileView.swift */; };
+		C10000000000000000000008 /* ProfileStatCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20000000000000000000008 /* ProfileStatCard.swift */; };
+		C10000000000000000000009 /* ProfileRangeSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20000000000000000000009 /* ProfileRangeSelector.swift */; };
+		C1000000000000000000000A /* StepsHistoryChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2000000000000000000000A /* StepsHistoryChartView.swift */; };
+		B10000000000000000000001 /* CampfireWidgets.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20000000000000000000001 /* CampfireWidgets.swift */; };
+		B10000000000000000000002 /* CampfireWidgetEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20000000000000000000002 /* CampfireWidgetEntry.swift */; };
+		B10000000000000000000003 /* CampfireWidgetProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20000000000000000000003 /* CampfireWidgetProvider.swift */; };
+		B10000000000000000000005 /* WidgetTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20000000000000000000005 /* WidgetTheme.swift */; };
+		B10000000000000000000006 /* WidgetBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20000000000000000000006 /* WidgetBackgroundView.swift */; };
+		B10000000000000000000007 /* WidgetCampfireImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20000000000000000000007 /* WidgetCampfireImage.swift */; };
+		B10000000000000000000008 /* SmallCampfireWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20000000000000000000008 /* SmallCampfireWidgetView.swift */; };
+		B10000000000000000000009 /* MediumCampfireWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20000000000000000000009 /* MediumCampfireWidgetView.swift */; };
+		B1000000000000000000000A /* WidgetMetricColumn.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2000000000000000000000A /* WidgetMetricColumn.swift */; };
+		B1000000000000000000000B /* WalkingStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000002 /* WalkingStats.swift */; };
+		B1000000000000000000000C /* CampfireStage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000003 /* CampfireStage.swift */; };
+		B1000000000000000000000D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000000C /* Assets.xcassets */; };
+		B1000000000000000000000E /* CampfireWidgets.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = B2000000000000000000000B /* CampfireWidgets.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		B1000000000000000000000F /* SharedWidgetDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000000F /* SharedWidgetDataStore.swift */; };
+		B10000000000000000000010 /* CampfireWidgetData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000011 /* CampfireWidgetData.swift */; };
+		B10000000000000000000011 /* CampfireLockScreenWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2000000000000000000000E /* CampfireLockScreenWidgetView.swift */; };
+		B10000000000000000000012 /* WidgetHealthKitReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2000000000000000000000F /* WidgetHealthKitReader.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B60000000000000000000001 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A60000000000000000000001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B50000000000000000000001;
+			remoteInfo = CampfireWidgets;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B70000000000000000000002 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				B1000000000000000000000E /* CampfireWidgets.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A20000000000000000000001 /* CampfireApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampfireApp.swift; sourceTree = "<group>"; };
+		A20000000000000000000002 /* WalkingStats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkingStats.swift; sourceTree = "<group>"; };
+		A20000000000000000000003 /* CampfireStage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampfireStage.swift; sourceTree = "<group>"; };
+		A20000000000000000000004 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		A20000000000000000000005 /* AppTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTheme.swift; sourceTree = "<group>"; };
+		A20000000000000000000006 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		A20000000000000000000007 /* GlassCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassCard.swift; sourceTree = "<group>"; };
+		A20000000000000000000008 /* StatCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatCard.swift; sourceTree = "<group>"; };
+		A20000000000000000000009 /* ProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
+		A2000000000000000000000A /* BottomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomTabBar.swift; sourceTree = "<group>"; };
+		A2000000000000000000000B /* CampfireMascotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampfireMascotView.swift; sourceTree = "<group>"; };
+		A20000000000000000000012 /* AnimatedCampfireView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedCampfireView.swift; sourceTree = "<group>"; };
+		A20000000000000000000013 /* EmberParticleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmberParticleView.swift; sourceTree = "<group>"; };
+		A20000000000000000000014 /* FlyingStickView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyingStickView.swift; sourceTree = "<group>"; };
+		A20000000000000000000015 /* OnboardingStateStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingStateStore.swift; sourceTree = "<group>"; };
+		A20000000000000000000016 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		A20000000000000000000017 /* OnboardingPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingPageView.swift; sourceTree = "<group>"; };
+		A20000000000000000000018 /* DailyGoalSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyGoalSelectionView.swift; sourceTree = "<group>"; };
+		A20000000000000000000019 /* ReminderNotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderNotificationService.swift; sourceTree = "<group>"; };
+		A2000000000000000000001A /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		A2000000000000000000001B /* HealthKitBackgroundRefreshService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitBackgroundRefreshService.swift; sourceTree = "<group>"; };
+		A2000000000000000000000C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A2000000000000000000000D /* Campfire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Campfire.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2000000000000000000000E /* HealthKitService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitService.swift; sourceTree = "<group>"; };
+		A2000000000000000000000F /* SharedWidgetDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedWidgetDataStore.swift; sourceTree = "<group>"; };
+		A20000000000000000000010 /* Campfire.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Campfire.entitlements; sourceTree = "<group>"; };
+		A20000000000000000000011 /* CampfireWidgetData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampfireWidgetData.swift; sourceTree = "<group>"; };
+		C20000000000000000000001 /* DailyWalkingStats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyWalkingStats.swift; sourceTree = "<group>"; };
+		C20000000000000000000002 /* ProfileChartRange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileChartRange.swift; sourceTree = "<group>"; };
+		C20000000000000000000003 /* ProfileLifetimeStats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileLifetimeStats.swift; sourceTree = "<group>"; };
+		C20000000000000000000004 /* StepChartPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepChartPoint.swift; sourceTree = "<group>"; };
+		C20000000000000000000005 /* DailyStatsHistoryStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyStatsHistoryStore.swift; sourceTree = "<group>"; };
+		C20000000000000000000006 /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
+		C20000000000000000000007 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		C20000000000000000000008 /* ProfileStatCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileStatCard.swift; sourceTree = "<group>"; };
+		C20000000000000000000009 /* ProfileRangeSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileRangeSelector.swift; sourceTree = "<group>"; };
+		C2000000000000000000000A /* StepsHistoryChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepsHistoryChartView.swift; sourceTree = "<group>"; };
+		B20000000000000000000001 /* CampfireWidgets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampfireWidgets.swift; sourceTree = "<group>"; };
+		B20000000000000000000002 /* CampfireWidgetEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampfireWidgetEntry.swift; sourceTree = "<group>"; };
+		B20000000000000000000003 /* CampfireWidgetProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampfireWidgetProvider.swift; sourceTree = "<group>"; };
+		B20000000000000000000005 /* WidgetTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetTheme.swift; sourceTree = "<group>"; };
+		B20000000000000000000006 /* WidgetBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetBackgroundView.swift; sourceTree = "<group>"; };
+		B20000000000000000000007 /* WidgetCampfireImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetCampfireImage.swift; sourceTree = "<group>"; };
+		B20000000000000000000008 /* SmallCampfireWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallCampfireWidgetView.swift; sourceTree = "<group>"; };
+		B20000000000000000000009 /* MediumCampfireWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediumCampfireWidgetView.swift; sourceTree = "<group>"; };
+		B2000000000000000000000A /* WidgetMetricColumn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetMetricColumn.swift; sourceTree = "<group>"; };
+		B2000000000000000000000B /* CampfireWidgets.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = CampfireWidgets.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2000000000000000000000C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2000000000000000000000D /* CampfireWidgets.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CampfireWidgets.entitlements; sourceTree = "<group>"; };
+		B2000000000000000000000E /* CampfireLockScreenWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampfireLockScreenWidgetView.swift; sourceTree = "<group>"; };
+		B2000000000000000000000F /* WidgetHealthKitReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetHealthKitReader.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A30000000000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B30000000000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A40000000000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				A40000000000000000000003 /* Campfire */,
+				B40000000000000000000001 /* CampfireWidgets */,
+				A40000000000000000000002 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A40000000000000000000002 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2000000000000000000000D /* Campfire.app */,
+				B2000000000000000000000B /* CampfireWidgets.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A40000000000000000000003 /* Campfire */ = {
+			isa = PBXGroup;
+			children = (
+				A20000000000000000000001 /* CampfireApp.swift */,
+				A20000000000000000000010 /* Campfire.entitlements */,
+				A40000000000000000000004 /* Models */,
+				A40000000000000000000005 /* ViewModels */,
+				A40000000000000000000009 /* Services */,
+				A40000000000000000000006 /* Views */,
+				A40000000000000000000008 /* Theme */,
+				A2000000000000000000000C /* Assets.xcassets */,
+			);
+			path = Campfire;
+			sourceTree = "<group>";
+		};
+		A40000000000000000000004 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A20000000000000000000002 /* WalkingStats.swift */,
+				A20000000000000000000003 /* CampfireStage.swift */,
+				A20000000000000000000011 /* CampfireWidgetData.swift */,
+				C20000000000000000000001 /* DailyWalkingStats.swift */,
+				C20000000000000000000002 /* ProfileChartRange.swift */,
+				C20000000000000000000003 /* ProfileLifetimeStats.swift */,
+				C20000000000000000000004 /* StepChartPoint.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A40000000000000000000005 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				A20000000000000000000004 /* HomeViewModel.swift */,
+				C20000000000000000000006 /* ProfileViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		A40000000000000000000006 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A20000000000000000000006 /* HomeView.swift */,
+				C20000000000000000000007 /* ProfileView.swift */,
+				A2000000000000000000001A /* SettingsView.swift */,
+				A20000000000000000000016 /* OnboardingView.swift */,
+				A20000000000000000000017 /* OnboardingPageView.swift */,
+				A40000000000000000000007 /* Components */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A40000000000000000000007 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				A20000000000000000000007 /* GlassCard.swift */,
+				A20000000000000000000008 /* StatCard.swift */,
+				A20000000000000000000009 /* ProgressBar.swift */,
+				A2000000000000000000000A /* BottomTabBar.swift */,
+				A2000000000000000000000B /* CampfireMascotView.swift */,
+				A20000000000000000000012 /* AnimatedCampfireView.swift */,
+				A20000000000000000000013 /* EmberParticleView.swift */,
+				A20000000000000000000014 /* FlyingStickView.swift */,
+				A20000000000000000000018 /* DailyGoalSelectionView.swift */,
+				C20000000000000000000008 /* ProfileStatCard.swift */,
+				C20000000000000000000009 /* ProfileRangeSelector.swift */,
+				C2000000000000000000000A /* StepsHistoryChartView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		A40000000000000000000008 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				A20000000000000000000005 /* AppTheme.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		A40000000000000000000009 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A2000000000000000000000E /* HealthKitService.swift */,
+				A2000000000000000000001B /* HealthKitBackgroundRefreshService.swift */,
+				A2000000000000000000000F /* SharedWidgetDataStore.swift */,
+				A20000000000000000000015 /* OnboardingStateStore.swift */,
+				A20000000000000000000019 /* ReminderNotificationService.swift */,
+				C20000000000000000000005 /* DailyStatsHistoryStore.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		B40000000000000000000001 /* CampfireWidgets */ = {
+			isa = PBXGroup;
+			children = (
+				B20000000000000000000001 /* CampfireWidgets.swift */,
+				B2000000000000000000000D /* CampfireWidgets.entitlements */,
+				B20000000000000000000002 /* CampfireWidgetEntry.swift */,
+				B20000000000000000000003 /* CampfireWidgetProvider.swift */,
+				B2000000000000000000000F /* WidgetHealthKitReader.swift */,
+				B20000000000000000000005 /* WidgetTheme.swift */,
+				B20000000000000000000006 /* WidgetBackgroundView.swift */,
+				B20000000000000000000007 /* WidgetCampfireImage.swift */,
+				B20000000000000000000008 /* SmallCampfireWidgetView.swift */,
+				B20000000000000000000009 /* MediumCampfireWidgetView.swift */,
+				B2000000000000000000000E /* CampfireLockScreenWidgetView.swift */,
+				B2000000000000000000000A /* WidgetMetricColumn.swift */,
+				B2000000000000000000000C /* Info.plist */,
+			);
+			path = CampfireWidgets;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A50000000000000000000001 /* Campfire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A90000000000000000000002 /* Build configuration list for PBXNativeTarget "Campfire" */;
+			buildPhases = (
+				A70000000000000000000001 /* Sources */,
+				A30000000000000000000001 /* Frameworks */,
+				A80000000000000000000001 /* Resources */,
+				B70000000000000000000002 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B60000000000000000000002 /* PBXTargetDependency */,
+			);
+			name = Campfire;
+			productName = Campfire;
+			productReference = A2000000000000000000000D /* Campfire.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B50000000000000000000001 /* CampfireWidgets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B90000000000000000000003 /* Build configuration list for PBXNativeTarget "CampfireWidgets" */;
+			buildPhases = (
+				B70000000000000000000001 /* Sources */,
+				B30000000000000000000001 /* Frameworks */,
+				B80000000000000000000001 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CampfireWidgets;
+			productName = CampfireWidgets;
+			productReference = B2000000000000000000000B /* CampfireWidgets.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A60000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2650;
+				LastUpgradeCheck = 2650;
+				TargetAttributes = {
+					A50000000000000000000001 = {
+						CreatedOnToolsVersion = 26.5;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+							com.apple.HealthKit = {
+								enabled = 1;
+							};
+						};
+					};
+					B50000000000000000000001 = {
+						CreatedOnToolsVersion = 26.5;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+							com.apple.HealthKit = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = A90000000000000000000001 /* Build configuration list for PBXProject "Campfire" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A40000000000000000000001;
+			productRefGroup = A40000000000000000000002 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A50000000000000000000001 /* Campfire */,
+				B50000000000000000000001 /* CampfireWidgets */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A80000000000000000000001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1000000000000000000000C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B80000000000000000000001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1000000000000000000000D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A70000000000000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000000000000000000001 /* CampfireApp.swift in Sources */,
+				A10000000000000000000002 /* WalkingStats.swift in Sources */,
+				A10000000000000000000003 /* CampfireStage.swift in Sources */,
+				A1000000000000000000000F /* CampfireWidgetData.swift in Sources */,
+				C10000000000000000000001 /* DailyWalkingStats.swift in Sources */,
+				C10000000000000000000002 /* ProfileChartRange.swift in Sources */,
+				C10000000000000000000003 /* ProfileLifetimeStats.swift in Sources */,
+				C10000000000000000000004 /* StepChartPoint.swift in Sources */,
+				A10000000000000000000004 /* HomeViewModel.swift in Sources */,
+				C10000000000000000000006 /* ProfileViewModel.swift in Sources */,
+				A1000000000000000000000D /* HealthKitService.swift in Sources */,
+				A1000000000000000000001B /* HealthKitBackgroundRefreshService.swift in Sources */,
+				A1000000000000000000000E /* SharedWidgetDataStore.swift in Sources */,
+				A10000000000000000000015 /* OnboardingStateStore.swift in Sources */,
+				A10000000000000000000019 /* ReminderNotificationService.swift in Sources */,
+				C10000000000000000000005 /* DailyStatsHistoryStore.swift in Sources */,
+				A10000000000000000000005 /* AppTheme.swift in Sources */,
+				A10000000000000000000006 /* HomeView.swift in Sources */,
+				C10000000000000000000007 /* ProfileView.swift in Sources */,
+				A1000000000000000000001A /* SettingsView.swift in Sources */,
+				A10000000000000000000016 /* OnboardingView.swift in Sources */,
+				A10000000000000000000017 /* OnboardingPageView.swift in Sources */,
+				A10000000000000000000007 /* GlassCard.swift in Sources */,
+				A10000000000000000000008 /* StatCard.swift in Sources */,
+				A10000000000000000000009 /* ProgressBar.swift in Sources */,
+				A1000000000000000000000A /* BottomTabBar.swift in Sources */,
+				A1000000000000000000000B /* CampfireMascotView.swift in Sources */,
+				A10000000000000000000012 /* AnimatedCampfireView.swift in Sources */,
+				A10000000000000000000013 /* EmberParticleView.swift in Sources */,
+				A10000000000000000000014 /* FlyingStickView.swift in Sources */,
+				A10000000000000000000018 /* DailyGoalSelectionView.swift in Sources */,
+				C10000000000000000000008 /* ProfileStatCard.swift in Sources */,
+				C10000000000000000000009 /* ProfileRangeSelector.swift in Sources */,
+				C1000000000000000000000A /* StepsHistoryChartView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B70000000000000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B10000000000000000000001 /* CampfireWidgets.swift in Sources */,
+				B10000000000000000000002 /* CampfireWidgetEntry.swift in Sources */,
+				B10000000000000000000003 /* CampfireWidgetProvider.swift in Sources */,
+				B10000000000000000000012 /* WidgetHealthKitReader.swift in Sources */,
+				B10000000000000000000005 /* WidgetTheme.swift in Sources */,
+				B10000000000000000000006 /* WidgetBackgroundView.swift in Sources */,
+				B10000000000000000000007 /* WidgetCampfireImage.swift in Sources */,
+				B10000000000000000000008 /* SmallCampfireWidgetView.swift in Sources */,
+				B10000000000000000000009 /* MediumCampfireWidgetView.swift in Sources */,
+				B10000000000000000000011 /* CampfireLockScreenWidgetView.swift in Sources */,
+				B1000000000000000000000A /* WidgetMetricColumn.swift in Sources */,
+				B1000000000000000000000B /* WalkingStats.swift in Sources */,
+				B1000000000000000000000C /* CampfireStage.swift in Sources */,
+				B1000000000000000000000F /* SharedWidgetDataStore.swift in Sources */,
+				B10000000000000000000010 /* CampfireWidgetData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B60000000000000000000002 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B50000000000000000000001 /* CampfireWidgets */;
+			targetProxy = B60000000000000000000001 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A90000000000000000000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A90000000000000000000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A90000000000000000000005 /* Debug */ = {
+			isa = XCBuildConfiguration;
+				buildSettings = {
+					ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+					CODE_SIGN_ENTITLEMENTS = Campfire/Campfire.entitlements;
+					CODE_SIGN_STYLE = Automatic;
+					CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V8W3AG3K4X;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Campfire;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Campfire reads your steps and active energy to fuel your daily fire.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ficho.Campfire;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A90000000000000000000006 /* Release */ = {
+			isa = XCBuildConfiguration;
+				buildSettings = {
+					ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+					CODE_SIGN_ENTITLEMENTS = Campfire/Campfire.entitlements;
+					CODE_SIGN_STYLE = Automatic;
+					CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V8W3AG3K4X;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Campfire;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Campfire reads your steps and active energy to fuel your daily fire.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ficho.Campfire;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B90000000000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_ENTITLEMENTS = CampfireWidgets/CampfireWidgets.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V8W3AG3K4X;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = CampfireWidgets/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ficho.Campfire.CampfireWidgets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		B90000000000000000000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_ENTITLEMENTS = CampfireWidgets/CampfireWidgets.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V8W3AG3K4X;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = CampfireWidgets/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ficho.Campfire.CampfireWidgets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A90000000000000000000001 /* Build configuration list for PBXProject "Campfire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A90000000000000000000003 /* Debug */,
+				A90000000000000000000004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A90000000000000000000002 /* Build configuration list for PBXNativeTarget "Campfire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A90000000000000000000005 /* Debug */,
+				A90000000000000000000006 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B90000000000000000000003 /* Build configuration list for PBXNativeTarget "CampfireWidgets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B90000000000000000000001 /* Debug */,
+				B90000000000000000000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A60000000000000000000001 /* Project object */;
+}
