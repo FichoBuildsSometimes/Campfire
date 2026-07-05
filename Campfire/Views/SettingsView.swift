@@ -42,6 +42,7 @@ struct SettingsView: View {
                         reminderCard
                         healthCard
                         otherPreferencesCard
+                        privacyAndSupportCard
                     }
                     .frame(width: contentWidth, alignment: .leading)
                     .padding(.top, max(proxy.safeAreaInsets.top + 22, 72))
@@ -271,6 +272,68 @@ struct SettingsView: View {
                 #endif
             }
         }
+    }
+
+    private var privacyAndSupportCard: some View {
+        GlassCard {
+            VStack(alignment: .leading, spacing: 14) {
+                sectionHeader(
+                    title: "Privacy & Support",
+                    subtitle: "Learn how Campfire handles your data or get in touch.",
+                    systemImage: "hand.raised.fill"
+                )
+
+                externalLinkRow(
+                    title: "Privacy Policy",
+                    systemImage: "lock.shield.fill",
+                    destination: CampfireLinks.privacyPolicy,
+                    accessibilityIdentifier: "settings.privacyPolicyLink"
+                )
+
+                externalLinkRow(
+                    title: "Support",
+                    systemImage: "envelope.fill",
+                    destination: CampfireLinks.support,
+                    accessibilityIdentifier: "settings.supportLink"
+                )
+            }
+        }
+    }
+
+    private func externalLinkRow(
+        title: String,
+        systemImage: String,
+        destination: URL,
+        accessibilityIdentifier: String
+    ) -> some View {
+        Link(destination: destination) {
+            HStack(spacing: 10) {
+                Image(systemName: systemImage)
+                    .font(.system(size: 14, weight: .bold))
+                    .foregroundStyle(AppTheme.Palette.emberGold)
+                    .frame(width: 28)
+
+                Text(title)
+                    .font(.subheadline.weight(.bold))
+                    .foregroundStyle(AppTheme.Palette.cream)
+
+                Spacer()
+
+                Image(systemName: "arrow.up.right")
+                    .font(.caption.weight(.bold))
+                    .foregroundStyle(AppTheme.Palette.creamMuted)
+            }
+            .contentShape(Rectangle())
+            .padding(.horizontal, 14)
+            .padding(.vertical, 12)
+            .background(
+                AppTheme.Palette.navyInk.opacity(0.28),
+                in: RoundedRectangle(cornerRadius: 14, style: .continuous)
+            )
+        }
+        .buttonStyle(.plain)
+        .accessibilityIdentifier(accessibilityIdentifier)
+        .accessibilityHint("Opens in your browser")
     }
 
     private func sectionHeader(title: String, subtitle: String, systemImage: String) -> some View {

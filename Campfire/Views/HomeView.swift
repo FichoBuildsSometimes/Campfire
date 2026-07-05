@@ -79,6 +79,13 @@ struct HomeView: View {
             guard newStage > oldStage else { return }
             triggerCampfireUpgrade()
         }
+        .onOpenURL { url in
+            guard CampfireDeepLink(url: url) == .home else { return }
+
+            withAnimation(.spring(response: 0.32, dampingFraction: 0.78)) {
+                selectedTab = .home
+            }
+        }
     }
 
     private func homeContent(
@@ -112,6 +119,7 @@ struct HomeView: View {
             .frame(width: size.width, alignment: .center)
             .background(AppTheme.Palette.navyInk)
         }
+        .accessibilityIdentifier("home.screen")
         .refreshable {
             await viewModel.refresh()
         }

@@ -46,6 +46,8 @@ struct BottomTabBar: View {
                 }
                 .buttonStyle(.plain)
                 .accessibilityLabel(tab.rawValue)
+                .accessibilityIdentifier("tab.\(tab.rawValue.lowercased())")
+                .accessibilityAddTraits(selectedTab == tab ? .isSelected : [])
             }
         }
         .frame(maxWidth: .infinity)

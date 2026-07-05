@@ -296,6 +296,7 @@ struct OnboardingView: View {
                     .shadow(color: AppTheme.Palette.ember.opacity(0.20), radius: 14, x: 0, y: 8)
             }
             .buttonStyle(.plain)
+            .accessibilityIdentifier("onboarding.primaryButton")
 
             if currentStep != .welcome {
                 Button {

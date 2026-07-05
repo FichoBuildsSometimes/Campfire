@@ -59,6 +59,11 @@
 		B10000000000000000000010 /* CampfireWidgetData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000011 /* CampfireWidgetData.swift */; };
 		B10000000000000000000011 /* CampfireLockScreenWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2000000000000000000000E /* CampfireLockScreenWidgetView.swift */; };
 		B10000000000000000000012 /* WidgetHealthKitReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2000000000000000000000F /* WidgetHealthKitReader.swift */; };
+		D10000000000000000000001 /* CampfireLinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20000000000000000000001 /* CampfireLinks.swift */; };
+		D10000000000000000000002 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = D20000000000000000000002 /* PrivacyInfo.xcprivacy */; };
+		D10000000000000000000003 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = D20000000000000000000003 /* PrivacyInfo.xcprivacy */; };
+		D10000000000000000000004 /* CampfireTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20000000000000000000004 /* CampfireTests.swift */; };
+		D10000000000000000000005 /* CampfireUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20000000000000000000005 /* CampfireUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +73,20 @@
 			proxyType = 1;
 			remoteGlobalIDString = B50000000000000000000001;
 			remoteInfo = CampfireWidgets;
+		};
+		D60000000000000000000001 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A60000000000000000000001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A50000000000000000000001;
+			remoteInfo = Campfire;
+		};
+		D60000000000000000000002 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A60000000000000000000001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A50000000000000000000001;
+			remoteInfo = Campfire;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -137,6 +156,14 @@
 		B2000000000000000000000D /* CampfireWidgets.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CampfireWidgets.entitlements; sourceTree = "<group>"; };
 		B2000000000000000000000E /* CampfireLockScreenWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampfireLockScreenWidgetView.swift; sourceTree = "<group>"; };
 		B2000000000000000000000F /* WidgetHealthKitReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetHealthKitReader.swift; sourceTree = "<group>"; };
+		D20000000000000000000001 /* CampfireLinks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampfireLinks.swift; sourceTree = "<group>"; };
+		D20000000000000000000002 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		D20000000000000000000003 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		D20000000000000000000004 /* CampfireTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampfireTests.swift; sourceTree = "<group>"; };
+		D20000000000000000000005 /* CampfireUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampfireUITests.swift; sourceTree = "<group>"; };
+		D20000000000000000000006 /* CampfireTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CampfireTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D20000000000000000000007 /* CampfireUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CampfireUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D20000000000000000000008 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +181,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D30000000000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D30000000000000000000002 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -162,6 +203,8 @@
 			children = (
 				A40000000000000000000003 /* Campfire */,
 				B40000000000000000000001 /* CampfireWidgets */,
+				D40000000000000000000001 /* CampfireTests */,
+				D40000000000000000000002 /* CampfireUITests */,
 				A40000000000000000000002 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -171,6 +214,8 @@
 			children = (
 				A2000000000000000000000D /* Campfire.app */,
 				B2000000000000000000000B /* CampfireWidgets.appex */,
+				D20000000000000000000006 /* CampfireTests.xctest */,
+				D20000000000000000000007 /* CampfireUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -180,6 +225,8 @@
 			children = (
 				A20000000000000000000001 /* CampfireApp.swift */,
 				A20000000000000000000010 /* Campfire.entitlements */,
+				D20000000000000000000008 /* Info.plist */,
+				D20000000000000000000002 /* PrivacyInfo.xcprivacy */,
 				A40000000000000000000004 /* Models */,
 				A40000000000000000000005 /* ViewModels */,
 				A40000000000000000000009 /* Services */,
@@ -195,6 +242,7 @@
 			children = (
 				A20000000000000000000002 /* WalkingStats.swift */,
 				A20000000000000000000003 /* CampfireStage.swift */,
+				D20000000000000000000001 /* CampfireLinks.swift */,
 				A20000000000000000000011 /* CampfireWidgetData.swift */,
 				C20000000000000000000001 /* DailyWalkingStats.swift */,
 				C20000000000000000000002 /* ProfileChartRange.swift */,
@@ -271,6 +319,7 @@
 			children = (
 				B20000000000000000000001 /* CampfireWidgets.swift */,
 				B2000000000000000000000D /* CampfireWidgets.entitlements */,
+				D20000000000000000000003 /* PrivacyInfo.xcprivacy */,
 				B20000000000000000000002 /* CampfireWidgetEntry.swift */,
 				B20000000000000000000003 /* CampfireWidgetProvider.swift */,
 				B2000000000000000000000F /* WidgetHealthKitReader.swift */,
@@ -284,6 +333,22 @@
 				B2000000000000000000000C /* Info.plist */,
 			);
 			path = CampfireWidgets;
+			sourceTree = "<group>";
+		};
+		D40000000000000000000001 /* CampfireTests */ = {
+			isa = PBXGroup;
+			children = (
+				D20000000000000000000004 /* CampfireTests.swift */,
+			);
+			path = CampfireTests;
+			sourceTree = "<group>";
+		};
+		D40000000000000000000002 /* CampfireUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D20000000000000000000005 /* CampfireUITests.swift */,
+			);
+			path = CampfireUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -325,6 +390,42 @@
 			productReference = B2000000000000000000000B /* CampfireWidgets.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
+		D50000000000000000000001 /* CampfireTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D90000000000000000000005 /* Build configuration list for PBXNativeTarget "CampfireTests" */;
+			buildPhases = (
+				D70000000000000000000001 /* Sources */,
+				D30000000000000000000001 /* Frameworks */,
+				D80000000000000000000001 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D60000000000000000000003 /* PBXTargetDependency */,
+			);
+			name = CampfireTests;
+			productName = CampfireTests;
+			productReference = D20000000000000000000006 /* CampfireTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D50000000000000000000002 /* CampfireUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D90000000000000000000006 /* Build configuration list for PBXNativeTarget "CampfireUITests" */;
+			buildPhases = (
+				D70000000000000000000002 /* Sources */,
+				D30000000000000000000002 /* Frameworks */,
+				D80000000000000000000002 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D60000000000000000000004 /* PBXTargetDependency */,
+			);
+			name = CampfireUITests;
+			productName = CampfireUITests;
+			productReference = D20000000000000000000007 /* CampfireUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -357,6 +458,14 @@
 							};
 						};
 					};
+					D50000000000000000000001 = {
+						CreatedOnToolsVersion = 26.5;
+						TestTargetID = A50000000000000000000001;
+					};
+					D50000000000000000000002 = {
+						CreatedOnToolsVersion = 26.5;
+						TestTargetID = A50000000000000000000001;
+					};
 				};
 			};
 			buildConfigurationList = A90000000000000000000001 /* Build configuration list for PBXProject "Campfire" */;
@@ -374,6 +483,8 @@
 			targets = (
 				A50000000000000000000001 /* Campfire */,
 				B50000000000000000000001 /* CampfireWidgets */,
+				D50000000000000000000001 /* CampfireTests */,
+				D50000000000000000000002 /* CampfireUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -384,6 +495,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A1000000000000000000000C /* Assets.xcassets in Resources */,
+				D10000000000000000000002 /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -392,6 +504,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				B1000000000000000000000D /* Assets.xcassets in Resources */,
+				D10000000000000000000003 /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D80000000000000000000001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D80000000000000000000002 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +532,7 @@
 				A10000000000000000000001 /* CampfireApp.swift in Sources */,
 				A10000000000000000000002 /* WalkingStats.swift in Sources */,
 				A10000000000000000000003 /* CampfireStage.swift in Sources */,
+				D10000000000000000000001 /* CampfireLinks.swift in Sources */,
 				A1000000000000000000000F /* CampfireWidgetData.swift in Sources */,
 				C10000000000000000000001 /* DailyWalkingStats.swift in Sources */,
 				C10000000000000000000002 /* ProfileChartRange.swift in Sources */,
@@ -461,6 +589,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D70000000000000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D10000000000000000000004 /* CampfireTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D70000000000000000000002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D10000000000000000000005 /* CampfireUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -468,6 +612,16 @@
 			isa = PBXTargetDependency;
 			target = B50000000000000000000001 /* CampfireWidgets */;
 			targetProxy = B60000000000000000000001 /* PBXContainerItemProxy */;
+		};
+		D60000000000000000000003 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A50000000000000000000001 /* Campfire */;
+			targetProxy = D60000000000000000000001 /* PBXContainerItemProxy */;
+		};
+		D60000000000000000000004 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A50000000000000000000001 /* Campfire */;
+			targetProxy = D60000000000000000000002 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -598,7 +752,8 @@
 					CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = V8W3AG3K4X;
 				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Campfire/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Campfire;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
 				INFOPLIST_KEY_NSHealthShareUsageDescription = "Campfire reads your steps and active energy to fuel your daily fire.";
@@ -627,7 +782,8 @@
 					CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = V8W3AG3K4X;
 				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Campfire/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Campfire;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
 				INFOPLIST_KEY_NSHealthShareUsageDescription = "Campfire reads your steps and active energy to fuel your daily fire.";
@@ -709,6 +865,80 @@
 			};
 			name = Release;
 		};
+		D90000000000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V8W3AG3K4X;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ficho.CampfireTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Campfire.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Campfire";
+			};
+			name = Debug;
+		};
+		D90000000000000000000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V8W3AG3K4X;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ficho.CampfireTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Campfire.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Campfire";
+			};
+			name = Release;
+		};
+		D90000000000000000000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V8W3AG3K4X;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ficho.CampfireUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_TARGET_NAME = Campfire;
+			};
+			name = Debug;
+		};
+		D90000000000000000000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V8W3AG3K4X;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ficho.CampfireUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_TARGET_NAME = Campfire;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -735,6 +965,24 @@
 			buildConfigurations = (
 				B90000000000000000000001 /* Debug */,
 				B90000000000000000000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D90000000000000000000005 /* Build configuration list for PBXNativeTarget "CampfireTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D90000000000000000000001 /* Debug */,
+				D90000000000000000000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D90000000000000000000006 /* Build configuration list for PBXNativeTarget "CampfireUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D90000000000000000000003 /* Debug */,
+				D90000000000000000000004 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
